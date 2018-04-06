@@ -90,3 +90,5 @@ children = ['Wendy', 'John', 'Michael']
 # of their names. Assign the returned array to a variable called `darling_children`.
 # Example: `Wendy` should become `Wendy Darling` in the new array.
 # Type your solution directly below this line:
+
+children.map! { |child| child + " Darling" }
