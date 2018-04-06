@@ -4,11 +4,11 @@
 # "Would you take this rose, `person`, in exchange for giving an old beggar woman shelter from the bitter cold?"
 # Type your solution directly below this line:
 
-def offer_rose(person)
+def offer_rose?(person)
   puts "Would you take this rose, #{person}, in exchange for giving an old beggar woman shelter from the bitter cold?"
 end
 # eg
-offer_rose("milly")
+offer_rose?("milly")
 
 
 # Question 2
@@ -27,6 +27,10 @@ town = {
 # - Remove "Belle" from `residents`
 # - Add "Belle" to the `guests` array
 # Type your solution directly below this line:
+
+town[:residents].delete "Belle"
+
+town[:castle][:residents].push "Belle"
 
 
 
